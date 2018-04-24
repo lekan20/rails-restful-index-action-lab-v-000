@@ -7,3 +7,8 @@
       <th colspan="3"></th>
     </tr>
   </thead>
+
+  <tbody>
+    <% @students.each do |student| %>
+      <tr>
+        <td><%= student.first_name %></td>
