@@ -1,4 +1,4 @@
 class StudentsController < ApplicationController
-  def change
+  def index
   end
 end
